@@ -2,133 +2,70 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Ejemplo Completo de Elementos Semánticos</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header, footer {
-      background-color: #333;
-      color: white;
-      padding: 15px;
-      text-align: center;
-    }
-    nav {
-      background-color: #555;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-    main {
-      padding: 20px;
-    }
-    section {
-      margin-bottom: 20px;
-      padding: 15px;
-      background-color: #f4f4f4;
-    }
-    article {
-      background-color: white;
-      padding: 10px;
-      margin-top: 10px;
-      border: 1px solid #ccc;
-    }
-    aside {
-      background-color: #e0e0e0;
-      padding: 10px;
-      margin-top: 10px;
-      font-style: italic;
-    }
-    figure {
-      text-align: center;
-      margin: 20px 0;
-    }
-    footer {
-      margin-top: 20px;
-    }
-  </style>
+  <title>Página Web Simple</title>
 </head>
-
 <body>
 
-  <!-- HEADER -->
+  <!-- Encabezado -->
   <header>
-    <h1>Mi Página Web Semántica</h1>
-    <p>Ejemplo completo de etiquetas HTML5</p>
+    <h1>Mi Página Web</h1>
+    <p>Ejemplo sencillo de HTML semántico</p>
   </header>
 
-  <!-- NAV -->
+  <!-- Menú -->
   <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Servicios</a>
-    <a href="#">Blog</a>
+    <a href="#">Inicio</a> |
+    <a href="#">Noticias</a> |
     <a href="#">Contacto</a>
   </nav>
 
-  <!-- MAIN -->
+  <!-- Contenido principal -->
   <main>
 
-    <!-- SECTION -->
+    <!-- Sección -->
     <section>
-      <h2>Sección de Noticias</h2>
+      <h2>Noticia del Día</h2>
 
-      <!-- ARTICLE -->
+      <!-- Artículo -->
       <article>
-        <header>
-          <h3>Lanzamiento de Nueva Tecnología</h3>
-          <p>Publicado el <time datetime="2026-02-26">26 de febrero de 2026</time></p>
-        </header>
+        <h3>Nueva Tecnología</h3>
+        <p>Publicado el 
+          <time datetime="2026-02-27">27 de febrero de 2026</time>
+        </p>
 
-        <p>Hoy se presentó una nueva tecnología que promete revolucionar el mercado.</p>
+        <p>Hoy se presentó una nueva innovación.</p>
 
-        <!-- MARK -->
-        <p><mark>Esta es la parte más importante de la noticia.</mark></p>
+        <p><mark>Esta es la parte más importante.</mark></p>
 
-        <!-- FIGURE Y FIGCAPTION -->
         <figure>
-          <img src="https://via.placeholder.com/300" alt="Imagen de ejemplo">
-          <figcaption>Figura 1 - Imagen representativa de la noticia</figcaption>
+          <img src="https://via.placeholder.com/200" alt="Imagen de ejemplo">
+          <figcaption>Imagen de referencia</figcaption>
         </figure>
 
-        <footer>
-          <p>Escrito por: Juan Pérez</p>
-        </footer>
       </article>
-
     </section>
 
-    <!-- ASIDE -->
+    <!-- Información adicional -->
     <aside>
-      <h4>Información Relacionada</h4>
-      <p>Este contenido está relacionado con la noticia principal pero es secundario.</p>
+      <p>Dato adicional relacionado con la noticia.</p>
     </aside>
 
-    <!-- DETAILS Y SUMMARY -->
+    <!-- Pregunta desplegable -->
     <section>
-      <h2>Preguntas Frecuentes</h2>
+      <h2>Preguntas</h2>
 
       <details>
-        <summary>¿Qué es HTML semántico?</summary>
-        <p>Es el uso de etiquetas que describen claramente el contenido que contienen.</p>
+        <summary>¿Qué es HTML?</summary>
+        <p>Es el lenguaje para crear páginas web.</p>
       </details>
 
-      <details>
-        <summary>¿Por qué es importante?</summary>
-        <p>Mejora la accesibilidad, el SEO y la organización del código.</p>
-      </details>
     </section>
 
   </main>
 
-  <!-- FOOTER -->
+  <!-- Pie de página -->
   <footer>
-    <p>&copy; 2026 Mi Página Web | Contacto: ejemplo@email.com</p>
+    <p>© 2026 Mi Página Web</p>
   </footer>
 
 </body>
